@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  min-width: 1000px;
+  background-color: #fff;
+  height: 85%;
+  /deep/ .el-table {
+    margin: 15px auto;
+  }
+  .btn-container {
+    width: 90%;
+    margin: 15px auto;
+    margin-bottom: 15px;
+  }
+  .span-link {
+    color: #409eff;
+    padding-left: 15px;
+    background-color: white;
+  }
+}
+/deep/ .el-table th {
+  padding: 9px 0;
+  font-weight: bold;
+}
+/deep/ .el-pagination {
+  width: 90%;
+  margin: 20px auto;
+}
+/deep/ .el-table td,
+.el-table tr {
+  height: 40px;
+  padding: 0;
+}
+/deep/ .el-button {
+  background-color: #00a65a;
+}
+/deep/ .el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #00a65a;
+}
